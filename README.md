@@ -29,9 +29,13 @@ OR,
      ```bash
      npm intall nodemon 
      ```
+
+     
      ```bash
       nodemon app.js
      ```
+
+     
 3. Open your web browser and go to `http://localhost:3000` to view the application.
 
 ## Demo
