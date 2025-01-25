@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,4 +13,37 @@ html,
 #map{
     height: 100%;
     width: 100%;
+} */
+ /* Reset and global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Inter', sans-serif; /* Use a modern, professional font */
+    background-color: #f9f9f9; /* Neutral background for better contrast */
+    color: #333; /* Subtle text color for better readability */
+    overflow: hidden; /* Prevent unwanted scrollbars */
+}
+
+/* Map container styling */
+#map {
+    height: 100%;
+    width: 100%;
+    border: 2px solid #ccc; /* Add a border for a cleaner look */
+    border-radius: 8px; /* Smooth corners for modern design */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add subtle depth */
+    overflow: hidden; /* Ensure content stays contained */
+}
+
+/* Optional: Add responsiveness */
+@media (max-width: 768px) {
+    #map {
+        border-radius: 4px; /* Adjust for smaller screens */
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Subtler shadow */
+    }
 }
