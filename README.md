@@ -38,7 +38,3 @@ OR,
 
      
 3. Open your web browser and go to `http://localhost:3000` to view the application.
-
-## Demo
-
-You can view a live demo of the project [here]([https://realtime-location-tracker.onrender.com]). *(Please note that it may take a few seconds for the server to wake up.)*
