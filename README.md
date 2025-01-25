@@ -25,7 +25,7 @@
     node app.js
     ```
 OR,
-    you can also imstall nodemon for live changes while you changing on your code
+    you can also install nodemon for live changes while you changing on your code
    ```bash
    nodemon app.js
    ```
